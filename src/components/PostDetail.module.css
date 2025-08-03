@@ -14,15 +14,11 @@
 .text {
     white-space: pre-wrap;
     font-size: 1.25rem;
-    margin: 0.25rem 0 0 0;
+    margin: 0.25rem 0 0;
     color: var(--primary-dark);
     font-style: italic;
 }
 
 .details a {
     text-decoration: none;
-}
-
-.btn {
-
 }
