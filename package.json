@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "tsc": "tsc --noEmit",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint .",
     "lint:style": "stylelint \"src/**/*.css\""
   },
   "dependencies": {

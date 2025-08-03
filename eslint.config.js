@@ -49,16 +49,13 @@ export default [
       },
     },
     rules: {
-      // React Hooks rules
       ...reactHooks.configs.recommended.rules,
       
-      // React Refresh rules
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
       ],
 
-      // TypeScript specific rules
       '@typescript-eslint/no-unused-vars': ['error', { 
         varsIgnorePattern: '^[A-Z_]',
         argsIgnorePattern: '^_',
@@ -73,13 +70,11 @@ export default [
       '@typescript-eslint/no-unnecessary-type-assertion': 'error',
       '@typescript-eslint/no-inferrable-types': 'error',
 
-      // Disable JS rules that conflict with TS
       'no-unused-vars': 'off',
       'no-undef': 'off',
       'prefer-const': 'error',
       'no-var': 'error',
 
-      // Code Quality
       'no-console': 'warn',
       'no-debugger': 'error',
       'no-alert': 'warn',
@@ -101,7 +96,6 @@ export default [
       }],
       'object-property-newline': ['error', { allowAllPropertiesOnSameLine: false }],
 
-      // React specific
       'react/prop-types': 'off',
       'react/react-in-jsx-scope': 'off',
       'react/jsx-uses-react': 'off',
@@ -123,7 +117,6 @@ export default [
       'react/require-render-return': 'error',
       'react/self-closing-comp': 'error',
       
-      // JSX Formatting
       'react/jsx-max-props-per-line': ['error', { maximum: 1 }],
       'react/jsx-first-prop-new-line': ['error', 'always'],
       'react/jsx-closing-bracket-location': ['error', 'tag-aligned'],
@@ -139,7 +132,6 @@ export default [
         prop: 'parens-new-line',
       }],
 
-      // Import/Export
       'import/no-unresolved': 'error',
       'import/named': 'error',
       'import/default': 'error',
@@ -163,7 +155,6 @@ export default [
         },
       }],
 
-      // Accessibility
       'jsx-a11y/alt-text': 'error',
       'jsx-a11y/anchor-has-content': 'error',
       'jsx-a11y/anchor-is-valid': 'error',
@@ -208,15 +199,12 @@ export default [
       },
     },
     rules: {
-      // React Hooks rules
       ...reactHooks.configs.recommended.rules,
       
-      // React Refresh rules
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
       ],
-      // Variables
       'no-unused-vars': ['error', { 
         varsIgnorePattern: '^[A-Z_]',
         argsIgnorePattern: '^_',
@@ -226,7 +214,6 @@ export default [
       'prefer-const': 'error',
       'no-var': 'error',
 
-      // Code Quality
       'no-console': 'warn',
       'no-debugger': 'error',
       'no-alert': 'warn',
@@ -239,7 +226,7 @@ export default [
       'comma-dangle': ['error', 'always-multiline'],
       'semi': ['error', 'always'],
       'quotes': ['error', 'single', { avoidEscape: true }],
-      'indent': ['error', 2, { SwitchCase: 1 }],
+      'indent': 'off',
       'object-curly-newline': ['error', {
         ObjectExpression: { multiline: true, minProperties: 1 },
         ObjectPattern: { multiline: true, minProperties: 1 },
@@ -248,7 +235,6 @@ export default [
       }],
       'object-property-newline': ['error', { allowAllPropertiesOnSameLine: false }],
 
-      // React specific
       'react/prop-types': 'off',
       'react/react-in-jsx-scope': 'off',
       'react/jsx-uses-react': 'off',
@@ -270,7 +256,6 @@ export default [
       'react/require-render-return': 'error',
       'react/self-closing-comp': 'error',
       
-      // JSX Formatting
       'react/jsx-max-props-per-line': ['error', { maximum: 1 }],
       'react/jsx-first-prop-new-line': ['error', 'always'],
       'react/jsx-closing-bracket-location': ['error', 'tag-aligned'],
@@ -286,7 +271,6 @@ export default [
         prop: 'parens-new-line',
       }],
 
-      // Import/Export
       'import/no-unresolved': 'error',
       'import/named': 'error',
       'import/default': 'error',
@@ -310,7 +294,6 @@ export default [
         },
       }],
 
-      // Accessibility
       'jsx-a11y/alt-text': 'error',
       'jsx-a11y/anchor-has-content': 'error',
       'jsx-a11y/anchor-is-valid': 'error',

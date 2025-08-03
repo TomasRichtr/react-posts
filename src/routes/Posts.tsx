@@ -1,5 +1,6 @@
 import {Outlet} from 'react-router-dom';
-import PostsList from "../components/PostsList.js";
+
+import PostsList from '../components/PostsList.tsx';
 
 
 export const Posts = () => {

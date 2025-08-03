@@ -1,8 +1,9 @@
 import {useLoaderData} from 'react-router-dom';
 
+import {PostData} from '../types/post.ts';
+
+import Post from './Post.tsx';
 import classes from './PostsList.module.css';
-import Post from "./Post.tsx";
-import {PostData} from "../types/post.ts";
 
 
 export const PostsList = () => {
@@ -16,8 +17,8 @@ export const PostsList = () => {
         id={post.id}
         key={i}
       />
-    )
-  }
+    );
+  };
 
   return (
     <>

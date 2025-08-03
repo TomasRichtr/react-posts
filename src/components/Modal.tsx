@@ -1,7 +1,7 @@
+import React from 'react';
 import {useNavigate} from 'react-router-dom';
 
 import classes from './Modal.module.css';
-import React from "react";
 
 interface ModalProps {
   children: React.ReactNode;

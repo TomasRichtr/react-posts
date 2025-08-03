@@ -1,15 +1,18 @@
 import {Outlet} from 'react-router-dom';
 
+import MainHeader from '../components/MainHeader.tsx';
+
 import classes from './RootLayout.module.css';
-import MainHeader from "../components/MainHeader.tsx";
 
 export const RootLayout = () => {
   return (
     <>
-        <main className={classes.page}>
-            <MainHeader/>
-            <Outlet/>
-        </main>
+      <main
+        className={classes.page}
+      >
+        <MainHeader/>
+        <Outlet/>
+      </main>
     </>
   );
 };
